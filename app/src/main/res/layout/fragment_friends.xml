@@ -8,28 +8,11 @@
     android:background="@android:color/darker_gray"
     tools:context=".FriendsFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <ImageView
-        android:src="@drawable/who"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:scaleType="centerCrop"/>
-
-    <TextView
-        android:text="Turu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@android:color/white"
-        android:textSize="54sp"
-        android:background="#009688"/>
-
-    <TextView
-        android:text="Ngantuk wak"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@android:color/white"
-        android:textSize="34sp"
-        android:background="#009688"/>
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingBottom="8dp" />
 
 </LinearLayout>
